@@ -2,18 +2,18 @@ import { Cart, Categories, Footer, Header, Products } from "./components"
 
 function App() {
   return (
-    <div className="container">
+    <div>
       <header>
         <Header />
       </header>
-      <main>
+      <main className="container">
         <Categories />
         <div className="d-flex">
           <Cart />
           <Products />
         </div>
       </main>
-      <footer>
+      <footer className="container">
         <Footer />
       </footer>
     </div>

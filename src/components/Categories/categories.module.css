@@ -1,0 +1,32 @@
+.categories{
+  width: 100%;
+  margin-top: 45px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.categoriesButton{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid transparent;
+  outline: none;
+  border-radius: 20px;
+  padding: 5px 20px;
+
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.categoriesButton img{
+  margin-right: 5px;
+}
+
+.categoriesButton:hover{
+  border: 1px solid #FFAB08;
+}
+
+.categoriesButton .active{
+  background-color: #FFAB08 !important;
+}
