@@ -7,7 +7,7 @@ function App() {
         <Header />
       </header>
       <main className="container">
-        <Categories />
+        <Categories/>
         <div className="d-flex">
           <Cart />
           <Products />
