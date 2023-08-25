@@ -5,9 +5,11 @@ function App() {
     <div>
       <header>
         <Header />
+        <div className="container">
+          <Categories/>
+        </div>
       </header>
       <main className="container">
-        <Categories/>
         <div className="d-flex">
           <Cart />
           <Products />
